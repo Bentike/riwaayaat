@@ -3,7 +3,7 @@ const Header = () => {
     <div>
       <h1 className="text-center text-4xl py-5">Assalam Alaykum</h1>
       <p className="text-center">
-        Welcome to Riwaayaat Online Learning Platform
+        Welcome to Riwaayaat Online Qur'aan Learning Platform
       </p>
     </div>
   );
