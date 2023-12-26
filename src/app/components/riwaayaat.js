@@ -1,7 +1,11 @@
-const Riwaayaat = ({list}) => {
+const Riwaayaat = ({riwaayaat}) => {
     return (
       <div>
-         <p>{list}</p>
+         <ul className="text-start p-5">
+           {riwaayaat.map(riwaaya => {
+             return <li key={riwaaya}>{riwaaya}</li>
+           })}
+         </ul>
       </div>
     );
 }
