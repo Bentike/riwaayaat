@@ -19,7 +19,7 @@ let riwaayaat = [
 const Courses = () => {
   return (
     <div className="text-center">
-      <h1 className="text-3xl my-8">Courses</h1>
+      <h1 className="lg:text-3xl my-8">Courses</h1>
       <div>
         <Riwaayaat riwaayaat={riwaayaat} />
       </div>
