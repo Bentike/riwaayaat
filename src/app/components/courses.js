@@ -1,4 +1,6 @@
 import Riwaayaat from "./riwaayaat";
+import Tuhfa from "./tuhfa";
+import Jazariyah from "./jazariyah";
 
 let riwaayaat = [
   "Riwaayatu D-doore An Abee Amr",
@@ -20,8 +22,10 @@ const Courses = () => {
   return (
     <div className="text-center">
       <h1 className="text-2xl lg:text-4xl my-5 font-bold">Available Courses</h1>
-      <div>
-        <Riwaayaat riwaayaat={riwaayaat} />
+      <div className="flex justify-around">
+        <Riwaayaat riwaayaat={riwaayaat}/>
+        <Tuhfa/>
+        <Jazariyah/>
       </div>
     </div>
   );
