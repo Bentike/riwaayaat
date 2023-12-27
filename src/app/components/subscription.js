@@ -10,15 +10,15 @@ const Subscription = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-around mb-10 flex-wrap">
-        <div className="my-5 md:my-0">
+      <div className="flex flex-col md:flex-row justify-center mb-10  bg-red-600 py-2">
+        <div className="my-5 md:my-0 w-[40%]">
           <h3 className="text-xl font-bold lg:text-2xl underline py-2">Account Details</h3>
           <p>Account Name:</p>
           <p>Account Number:</p>
           <p>Bank Name:</p>
         </div>
 
-        <div className="my-5 md:my-0">
+        <div className="my-5 md:my-0 w-[40%]">
           <h3 className="text-xl font-bold lg:text-2xl underline py-2">Share Receipt</h3>
           <p className="w-[60%] text-center mx-auto">
             click on the share button below to share payment receipt on whatsApp
@@ -28,7 +28,7 @@ const Subscription = () => {
           </a>
         </div>
 
-        <div className="my-5 md:my-0">
+        <div className="my-5 md:my-0 w-[40%]">
           <h3 className="text-xl font-bold lg:text-2xl underline py-2">Amount</h3>
           <p>Depends on course, hours and duration.</p>
         </div>
