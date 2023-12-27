@@ -3,7 +3,7 @@ const Subscription = () => {
     <div className="text-center">
       <div>
         <h2 className="text-xl font-bold lg:text-3xl py-2 underline">Subscribe</h2>
-        <div className="w-[40%] mx-auto mb-8">
+        <div className="w-full lg:w-[40%] mx-auto mb-8">
           <p>
             Make payment into the below account details, and share the receipt
             of your payment via our whatsApp by clicking the wa.me below.{" "}
