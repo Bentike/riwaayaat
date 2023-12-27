@@ -24,7 +24,7 @@ const Subscription = () => {
             click on the share button below to share payment receipt on whatsApp
           </p>
           <a href=" https://wa.me/+2347061958073" target="_blank"> 
-            <button className="bg-green-500 py-3 px-8 rounded-md mt-5">Share</button>
+            <button className="bg-green-500 hover:bg-green-800 py-3 px-8 rounded-md mt-5">Share</button>
           </a>
         </div>
 
