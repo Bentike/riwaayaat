@@ -13,9 +13,9 @@ const Subscription = () => {
       <div className="flex flex-col md:flex-row justify-center mb-10  bg-red-600 py-2">
         <div className="my-5 md:my-0 w-full lg:w-[40%]">
           <h3 className="text-xl font-bold lg:text-2xl underline py-2">Account Details</h3>
-          <p>Account Name:</p>
-          <p>Account Number:</p>
-          <p>Bank Name:</p>
+          <p>Account Name:Owoola muhammed Ayodele</p>
+          <p>Account Number:(dollar account: 0891259731) (Pounds account:0891259748) (Euro account:0891259755)</p>
+          <p>Bank Name:Guaranty Trust Bank</p>
         </div>
 
         <div className="my-5 md:my-0 w-full lg:w-[40%]">
